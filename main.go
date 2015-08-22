@@ -47,4 +47,6 @@ func main() {
     fmt.Println()
     fmt.Println("### Running go-pull script - Fetching directories...")
     filepath.Walk(".", fetchDir)
+    fmt.Println("Done.")
+    fmt.Println()
 }
